@@ -16,8 +16,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@prisma/client": "^4.11.0",
-    "husky": "^8.0.2"
+    "@prisma/client": "^4.11.0"
   },
   "devDependencies": {
     "prisma": "^4.11.0"
