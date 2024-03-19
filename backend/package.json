@@ -7,6 +7,7 @@
   },
   "scripts": {
     "dev": "ts-node src/index.ts",
+    "build": "tsc --noEmitOnError --legacy-peer-deps",
     "lint": "eslint . --ext .ts,.tsx --fix",
     "lint:check": "eslint . --ext .ts,.tsx --max-warnings 0",
     "format": "prettier --write .",
