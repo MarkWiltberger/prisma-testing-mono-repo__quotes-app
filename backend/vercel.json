@@ -1,4 +1,6 @@
 {
-  "version": 2,
-  "rewrites": [{ "source": "/(.*)", "destination": "/src" }]
+  "build": {
+    "src": "src/main.ts",
+    "use": "@vercel/node"
+  }
 }
