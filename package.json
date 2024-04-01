@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepare": "husky install",
     "checks": "pnpm run -r checks",
     "startup": "PowerShell.exe ./scripts/startup-dev.ps1",
     "test:backend:int": "pnpm run --filter=backend test:int",
